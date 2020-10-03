@@ -1,0 +1,133 @@
+
+.home{
+    overflow: hidden;
+    overflow-x: hidden;
+    justify-content: space-evenly;
+    margin: 0%;   
+    
+}
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:grey
+    
+    ;
+}
+.casecard {
+    text-align: center;
+
+    
+    margin: 50px;
+}
+.critical{
+    color: red;
+    font-size: 30px;
+    overflow: hidden;
+}
+.deathcard{
+    
+    text-align: center;
+    margin: 50px;
+
+    overflow: hidden;
+}
+.recovercard{
+    text-align: center;
+
+    
+    margin: 50px;
+}
+.criticalcases{
+    text-align: center;
+
+    
+    margin: 50px;
+}
+.affectedcountries{
+    text-align: center;
+
+    background-color:#709fb0;
+    margin: 50px;
+}
+.Cards{
+    display:flex;
+    width: 100vw;
+    /*mso-displayed-thousand-separator: True;*/
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Cousine', monospace;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 10px;
+    background-color: #f5efef;
+    ;
+    
+
+
+}
+.classDetails{
+    display:flex;
+    margin: 0px;
+}
+
+.app_dropdown{
+    
+    border: #ff847c;
+    background-color:#a0c1b8;
+}
+
+.mainbody{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+    margin: 10px;
+    margin-left: 20px;
+}
+.home__left{
+    flex: 0.9;
+}
+.table{
+    overflow-y:scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    
+    height: 67vh;
+    
+    color: #6a5d5d;
+}
+.table tr:nth-of-type(even){
+    background-color: #f6f5f5;
+}
+.table tr:nth-of-type(odd){
+    background-color: #e0dede;
+}
+
+.table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td{
+    padding: 0.5rem;
+}
+
+.countrylist{
+    align-items: center;
+}
+
+@media (max-width:990px){
+    .classDetails{
+        align-items: center;
+        
+        flex-direction: column;
+        
+    }
+} 
+
+ @media (max-width:990px){
+    .deathcard{
+        overflow: hidden;
+        text-align:center;
+        margin-left: 5px;
+        
+    }
+}

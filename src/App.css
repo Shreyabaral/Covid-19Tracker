@@ -1,0 +1,34 @@
+
+.App{
+  background-color: black;
+  color: white;
+  
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 30px;
+
+}
+li{
+  float:right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.footer{
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
